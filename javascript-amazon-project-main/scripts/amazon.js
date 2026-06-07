@@ -1,14 +1,15 @@
 //console.log('hello');
 const products = [{
-Image: "images/products/athletic-cotton-socks-6-pairs.jpg",
+image:"images/products/athletic-cotton-socks-6-pairs.jpg",
 name: 'Black and Gray Athletic Cotton Socks - 6 Pairs',
 rating: {
     stars: 4.5,
     count: 87
 },
 priceCent: 1090 
-},{
-   Image: 'images/products/intermediate-composite-basketball.jpg',
+},
+{
+   image: 'images/products/intermediate-composite-basketball.jpg',
    name: 'Intermediate Size Basketball',
    rating: {
     stars: 4,
@@ -24,6 +25,17 @@ rating: {
     count: 56,
 },
 priceCent: 799
+
+},
+{
+image: 'images/products/black-2-slot-toaster.jpg',
+name: '2 slot toaster - black',
+rating: {
+    stars: 5,
+    count: 2917
+
+},
+priceCent: 1899
 
 }];
 
@@ -82,5 +94,6 @@ productsHTML += `
 `;
 
 });
+
 
 document.querySelector('.js-product-grid').innerHTML = productsHTML;
