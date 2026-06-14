@@ -1,3 +1,6 @@
+import {cart} from '../data/cart.js';
+//Module
+
 //console.log('hello');
 let productsHTML = '';
 
