@@ -32,7 +32,7 @@ cart.forEach((cartItem) => {
                   ${matchingProduct.name}
                 </div>
                 <div class="product-price">
-                  $${matchingProduct.priceCent/100}
+                  $${matchingProduct.priceCents/100}
                 </div>
                 <div class="product-quantity">
                   <span>
